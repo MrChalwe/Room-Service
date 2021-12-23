@@ -1,1 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
+.body {
+  background-image: url(../img/bg3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-body {
+  background-color: #dddddd;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.411);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 30px;
+}
+
+nav ul {
+  list-style: none;
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .access-card {
+  width: 400px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.411);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  padding: 20px 20px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .access-card form .logo {
+  width: 100px;
+  height: 110px;
+  margin: auto;
+}
+
+.main .access-card form .logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.main .access-card form .field {
+  background: none;
+  border: 1px solid #007bff;
+}
+
+.main .access-card ::-webkit-input-placeholder {
+  color: #303030;
+}
+
+.main .access-card :-ms-input-placeholder {
+  color: #303030;
+}
+
+.main .access-card ::-ms-input-placeholder {
+  color: #303030;
+}
+
+.main .access-card ::placeholder {
+  color: #303030;
+}
+/*# sourceMappingURL=main.css.map */
